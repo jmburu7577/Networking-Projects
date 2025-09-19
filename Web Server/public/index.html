@@ -1,0 +1,10 @@
+<!doctype html>
+<html><head><title>My Web Server</title></head><body>
+<h1>Welcome</h1>
+<p><a href="/upload">Upload a file</a></p>
+<p><a href="/gallery">View uploads</a></p>
+<form enctype="multipart/form-data" method="POST" action="/upload">
+  <input type="file" name="file">
+  <input type="submit" value="Upload">
+</form>
+</body></html>
